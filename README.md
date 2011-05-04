@@ -44,20 +44,20 @@ Note: Comments and corrections to these instructions are welcome.
 * If using windows, the commands will need to be issued from the msysgit Git Bash tool, which is Linux style commands, or use cygwin. If using Windows command line, slashes in full path names will need to be reversed to backwards slash: "\\"
 
 
-## Creating the proper folder structure.##
+## Creating the proper folder structure##
 
 1. Find the place where you want the amplafi files and tools to be placed.
 2. Create the directory "amplafi-code". This is where the clone of amplafi-tools repository will reside.
 
 
-## Cloning the amplafi-tools repository using git.##
+## Cloning the amplafi-tools repository using git##
 
 1. Change your working directory to the amplafi-code directory you just created: 
 <pre> cd /path/to/amplafi-code </pre>
 2. Run this command, which will create the amplafi-tools subdirectory in amplafi-code directory:
 <pre> git clone https://github.com/amplafi/amplafi-tools.git </pre>
 
-## Starting the ant script.##
+## Starting the ant script##
 
 1. Change your working directory to the amplafi-tools directory that was just created by cloning the amplafi-tools repository.
 2. Run this command.
@@ -116,7 +116,7 @@ TODO: add more about what success looks like, maybe how can run the "testNG" run
 TODO: add something about what to do when you want to import from a fork and Eclipse doesn't do anything when you import!
 
 ## Configure Eclipse##
-The following files are located in the ..\amplafi\amplafi_code\amplafi-tools\src\main\resources\eclipse
+The following files are located in the ../amplafi/amplafi_code/amplafi-tools/src/main/resources/eclipse
 directory.
 
 1. Import the eclipse-java-codetemplates.xml
