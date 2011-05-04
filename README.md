@@ -121,7 +121,7 @@ directory.
 
 1. Import the eclipse-java-codetemplates.xml
    * Use the menu **Window>Preferences> --- Java>Code Style>Code Templates**
-   ![still not code templates]
+   ![code templates]
 (https://github.com/harrietckm/Hello-World3/raw/master/readme-images/EclCodeTemplates.PNG)
 
 2. Import the eclipse-java-formatting.xml
@@ -129,7 +129,8 @@ directory.
    TODO: add images to illustrate this better
 3. Import the eclipse-java-cleanup.xml
    * Use the menu **Window>Preferences> --- Java>Code Style>Clean Up**
-   TODO: add images to illustrate this better
+  ![cleanup templates]
+(https://github.com/harrietckm/Hello-World3/raw/master/readme-images/EclCleanupTemplates.PNG)
 
 
 ## Install these Eclipse Plugins##
