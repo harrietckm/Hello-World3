@@ -53,18 +53,18 @@ Note: at the moment this document will have a unix slant.
 
 4. If the build fails then 
 
-4.a) read the error and see if is something easy like github not being setup properly, correct github setupcommand
+    a) read the error and see if is something easy like github not being setup properly, correct github setupcommand
 
-4.b) check the known issues below
+    b) check the known issues below
 
-4.c) make sure you were in the correct directory before running the command
+    c) make sure you were in the correct directory before running the command
 
 5. Rerun if needed until success: 
 <pre> apache-ant-1.8.2/bin/ant opensource-one-time-setup </pre>
 
 ## Change the origin and upstream for the project you are working on##
 
-Currently you have downloaded all of the opensource projects, but do not have write access. It is nessary at this point to modify your origin and upstream so that they point to the correct projects. In a nut shell the origin should point to your fork, and the upstream should point to the amplafi project.
+Currently you have downloaded all of the opensource projects, but do not have write access. It is nessary at this point to modify your origin and upstream so that they point to the correct projects. The big picture is that the origin should point to your fork, and the upstream should point to the amplafi project.
 
 1. cd into the amplafi-code directory
 2. Delete the directory you will be working on 
