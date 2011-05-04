@@ -18,7 +18,7 @@ Note: at the moment this document will have a unix slant.
    * The ouput should say something like: git version 1.7.
    * Use the [instructions](http://help.github.com/set-up-git-redirect) if you need to set it up. If you get an error like: *Permission denied (publickey)*. Then you didn't properly follow the instructions, set up your SSH key now.
 
-* **[Java JDK 1.6+:](http://www.oracle.com/technetwork/java/javase/downloads/index.html)** this program is needed to run builds.
+* **[Java JDK 1.6+:](http://www.oracle.com/technetwork/java/javase/downloads/index.html)** this program is needed to run builds. Note this is the *JDK*, not the *JRE*, and you want to avoid the "glassfish" version".  Here is a link for Windows Java JDK: <pre>http://www.oracle.com/technetwork/java/javase/downloads/jdk-6u25-download-346242.html</pre>
    * Check that this is installed with this command.
 <pre> java -version</pre>
 
