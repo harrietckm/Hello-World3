@@ -1,9 +1,8 @@
 # Amplafi Opensource Tools Project#
 Welcome to Harriet's version 
-![Opening the Eclipse Marketplace][OpenMarketplace]
 of the Amplafi opensource tools project. The goal of this
 project is to get a user up and running with all of the needed tools and
-source to work on the opensource projects.
+source to work on the opensource projects.  If you made it here, you successfully ignored all the clutter up above on this webpage.
 
 Note: at the moment this document will have a unix slant.
 
@@ -50,8 +49,12 @@ Note: at the moment this document will have a unix slant.
 2. run this command.
 <pre> apache-ant-1.8.2/bin/ant opensource-one-time-setup </pre>
 
-3. The console window will ask prompt for things so pay attention and answer the questions/promts.
-4. If the build fails then read the error and see if is something easy like github not being setup properly. Then fix that and rerun the command.
+3. The console window might prompt for things (but not in Windows) so pay attention and answer the questions/promts.
+4. If the build fails then 
+4.a) read the error and see if is something easy like github not being setup properly, correct github setupcommand
+4.b) check the known issues below
+4.c) make sure you were in the correct directory before running the command
+5. Rerun if needed until success: 
 <pre> apache-ant-1.8.2/bin/ant opensource-one-time-setup </pre>
 
 ## Change the origin and upstream for the project you are working on##
