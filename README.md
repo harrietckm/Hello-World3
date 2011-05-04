@@ -121,7 +121,9 @@ directory.
 
 1. Import the eclipse-java-codetemplates.xml
    * Use the menu **Window>Preferences> --- Java>Code Style>Code Templates**
-   ![eclipse code templates][EclCodeTemplates]
+   [Opening eclipse code templates][EclCodeTemplates]
+[EclCodeTemplates]:<https://github.com/amplafi/amplafi-tools/blob/master/readme-images/EclCodeTemplates.png>
+
 2. Import the eclipse-java-formatting.xml
    * Use the menu **Window>Preferences> --- Java>Code Style>Formatter**
    TODO: add images to illustrate this better
