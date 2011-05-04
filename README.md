@@ -8,6 +8,7 @@ Note: at the moment this document will have a unix slant.
 
 ## Prerequisites:##
 
+   * These prerequisites can be installed in any directory you want
 * **[A Github Account:](https://github.com/)**
    * Setup your machine to use github with their [instructions](http://help.github.com/set-up-git-redirect).
 
@@ -19,11 +20,14 @@ Note: at the moment this document will have a unix slant.
    * Use the [instructions](http://help.github.com/set-up-git-redirect) if you need to set it up. If you get an error like: *Permission denied (publickey)*. Then you didn't properly follow the instructions, set up your SSH key now.
 
 * **[Java JDK 1.6+:](http://www.oracle.com/technetwork/java/javase/downloads/index.html)** this program is needed to run builds. Note this is the *JDK*, not the *JRE*, and you want to avoid the "glassfish" version".  Here is a [link for Windows Java JDK] (http://www.oracle.com/technetwork/java/javase/downloads/jdk-6u25-download-346242.html)
+
    * Check that this is installed with this command.
 <pre> java -version</pre>
 
    * The output should say something like: Java SE runtime build 1.6.
-* **[Eclipse latest download:](http://www.eclipse.org/downloads/)** This is the tool you will be developing in (You can start downloading this tool and continue with the instructions if you are on a fast connection).
+
+
+* **[Eclipse latest download:](http://www.eclipse.org/downloads/)** This is the tool you will be developing in (You can start downloading this tool and continue with the instructions if you are on a fast connection). Note this is the *EE* version of Eclipse.
    * The "Eclipse IDE for Java EE Developers" is the tool you need.
 
 ## Before you start##
@@ -92,6 +96,8 @@ Now that you have the opensource files it is time to add them to an Eclipse work
       4. Now use the menu **Projects>clean...**
       5. Choose **clean all projects**.
       6. If the errors still don't go away after the rebuild then ask for help.
+TODO: add more about what success looks like, maybe how can run the "testNG" run of a "...test..." file.
+TODO: add something about what to do when you want to import from a fork and Eclipse doesn't do anything when you import!
 
 ## Configure Eclipse##
 The following files are located in the src/main/resources/eclipse/
