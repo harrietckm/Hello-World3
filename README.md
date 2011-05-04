@@ -152,6 +152,7 @@ directory.
    TODO: add image to hilight the testng software to install.
 
 <!-- These are the reference links to the images for this section. -->
+[EclCodeTemplates]<https://github.com/harrietckm/Hello-World3/EclCodeTemplates.png>
 [OpenMarketplace]: <https://github.com/amplafi/amplafi-tools/raw/master/readme-images/openMarketplace.png>
 [installingSoftware]: <https://github.com/amplafi/amplafi-tools/raw/master/readme-images/installingSoftware.png>
 [securityWarning]: <https://github.com/amplafi/amplafi-tools/raw/master/readme-images/securityWarning.png>
