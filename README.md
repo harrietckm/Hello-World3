@@ -122,7 +122,7 @@ directory.
 1. Import the eclipse-java-codetemplates.xml
    * Use the menu **Window>Preferences> --- Java>Code Style>Code Templates**
    ![still not code templates]
-(https://github.com/harrietckm/Hello-World3/raw/master/readme-images/EclCodeTemplates.png)
+(https://github.com/harrietckm/Hello-World3/raw/master/readme-images/EclCodeTemplates.PNG)
 
 2. Import the eclipse-java-formatting.xml
    * Use the menu **Window>Preferences> --- Java>Code Style>Formatter**
