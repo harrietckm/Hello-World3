@@ -121,8 +121,8 @@ directory.
 
 1. Import the eclipse-java-codetemplates.xml
    * Use the menu **Window>Preferences> --- Java>Code Style>Code Templates**
-   ![not code templates]
-(https://github.com/harrietckm/Hello-World3/blob/master/readme-images/EclCodeTemplates.png)
+   ![still not code templates]
+(https://github.com/harrietckm/Hello-World3/raw/master/readme-images/EclCodeTemplates.png)
 
 2. Import the eclipse-java-formatting.xml
    * Use the menu **Window>Preferences> --- Java>Code Style>Formatter**
