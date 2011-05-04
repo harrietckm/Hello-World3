@@ -77,9 +77,7 @@ Note: Comments and corrections to these instructions are welcome.
 <pre> apache-ant-1.8.2/bin/ant opensource-one-time-setup </pre>
 
 6. Success will include these statements in the terminal (or Git Bash on Windows): <pre>complete-one-time-config-opensource:
-
 opensource-one-time-setup:
-
 BUILD SUCCESSFUL
 Total time: 41 minutes 7 seconds</pre>
 
