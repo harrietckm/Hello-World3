@@ -67,7 +67,7 @@ Note: Comments and corrections to these instructions are welcome.
 
 4. If the build fails then 
 
-    a) read the error and see if is something easy like github not being setup properly, correct github setupcommand
+    a) read the error and see if it is something easy like github not being setup properly, correct github setupcommand
 
     b) check the known issues below
 
@@ -76,12 +76,12 @@ Note: Comments and corrections to these instructions are welcome.
 5. Rerun if needed until success: 
 <pre> apache-ant-1.8.2/bin/ant opensource-one-time-setup </pre>
 
-6. Success will include these statements in the terminal (or Git Bash on Windows): *complete-one-time-config-opensource:
+6. Success will include these statements in the terminal (or Git Bash on Windows): <pre>complete-one-time-config-opensource:
 
 opensource-one-time-setup:
 
 BUILD SUCCESSFUL
-Total time: 41 minutes 7 seconds*
+Total time: 41 minutes 7 seconds</pre>
 
 
 ## Change the origin and upstream for the project you are working on##
