@@ -8,7 +8,7 @@ Note: at the moment this document will have a unix slant.
 
 ## Prerequisites:##
 
-   * These prerequisites can be installed in any directory you want
+* **These prerequisites can be installed in any directory you want**
 
 * **[A Github Account:](https://github.com/)**
    * Setup your machine to use github with their [instructions](http://help.github.com/set-up-git-redirect).
