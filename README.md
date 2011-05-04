@@ -12,7 +12,7 @@ Note: Comments and corrections to these instructions are welcome.
 * **[A Github Account:](https://github.com/)**
    * Setup your machine to use github with Git's  [instructions](http://help.github.com/set-up-git-redirect).
 
-* **[Git 1.7+:](http://help.github.com/set-up-git-redirect)** the program git is needed for the initial download and install.
+* **[Git 1.7+:](http://help.github.com/set-up-git-redirect)**  The program git is needed for the initial download and install.
    * Check this is installed with this command, still in Git Bash on Windows.
 <pre> git --version</pre>
 
@@ -20,13 +20,15 @@ Note: Comments and corrections to these instructions are welcome.
    * Use the [instructions](http://help.github.com/set-up-git-redirect) if you need to set it up. 
    * On Windows you need to set up an ssh-agent on your machine so there is no user verification required during the cloning that follows:
  
-    a) set up an ssh-agent using these [instructions](http://help.github.com/working-with-key-passphrases/)
+        a) set up an ssh-agent using these [instructions](http://help.github.com/working-with-key-passphrases/)
   
-    b) Now when you run the msysgit bash you should be prompted for your passphrase. If you are not prompted for your passphrase then restart windows and start the msysgit bash tool again. 
+        b) Now when you run the msysgit bash you should be prompted for your passphrase. If you are not prompted for your passphrase then restart windows and start the msysgit bash tool again. 
+
+
 
    * If you get an error like: *Permission denied (publickey)*, please review your Git and ssh setup for correctness.
 
-* **[Java JDK 1.6+:](http://www.oracle.com/technetwork/java/javase/downloads/index.html)** this program is needed to run builds. Note this is the *JDK*, not the *JRE*, and you want to avoid the "glassfish" version".  Here is a [link for Windows Java JDK] (http://www.oracle.com/technetwork/java/javase/downloads/jdk-6u25-download-346242.html)
+* **[Java JDK 1.6+:](http://www.oracle.com/technetwork/java/javase/downloads/index.html)**  This program is needed to run builds. Note this is the *JDK*, not the *JRE*, and you want to avoid the "glassfish" version".  Here is a [link for Windows Java JDK] (http://www.oracle.com/technetwork/java/javase/downloads/jdk-6u25-download-346242.html)
 
    * Check that this is installed with this command, still in Git Bash on Windows.
 <pre> java -version</pre>
@@ -73,6 +75,14 @@ Note: Comments and corrections to these instructions are welcome.
 
 5. Rerun if needed until success: 
 <pre> apache-ant-1.8.2/bin/ant opensource-one-time-setup </pre>
+
+6. Success will include these statements in the terminal (or Git Bash on Windows): *complete-one-time-config-opensource:
+
+opensource-one-time-setup:
+
+BUILD SUCCESSFUL
+Total time: 41 minutes 7 seconds*
+
 
 ## Change the origin and upstream for the project you are working on##
 
