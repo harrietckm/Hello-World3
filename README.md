@@ -121,8 +121,7 @@ directory.
 
 1. Import the eclipse-java-codetemplates.xml
    * Use the menu **Window>Preferences> --- Java>Code Style>Code Templates**
-   [Opening eclipse code templates][EclCodeTemplates]
-[EclCodeTemplates]:<https://github.com/amplafi/amplafi-tools/blob/master/readme-images/EclCodeTemplates.png>
+   ![Opening eclipse code templates][EclCodeTemplates]
 
 2. Import the eclipse-java-formatting.xml
    * Use the menu **Window>Preferences> --- Java>Code Style>Formatter**
@@ -154,7 +153,8 @@ directory.
    TODO: add image to hilight the testng software to install.
 
 <!-- These are the reference links to the images for this section. -->
-[EclCodeTemplates]<https://github.com/harrietckm/Hello-World3/blob/master/EclCodeTemplates.PNG?raw=true>
+[EclCodeTemplates]:
+<https://github.com/harrietckm/Hello-World3/blob/master/readme-images/EclCodeTemplates.png>
 [OpenMarketplace]: <https://github.com/amplafi/amplafi-tools/raw/master/readme-images/openMarketplace.png>
 [installingSoftware]: <https://github.com/amplafi/amplafi-tools/raw/master/readme-images/installingSoftware.png>
 [securityWarning]: <https://github.com/amplafi/amplafi-tools/raw/master/readme-images/securityWarning.png>
