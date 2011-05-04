@@ -33,13 +33,18 @@ Note: at the moment this document will have a unix slant.
 
 ## Before you start##
 * When going through the instructions, if you run into trouble first look at the known issues section at the bottom of this document to see if your trouble has a known fix.
-* If using windows, the commands will need to be issued from the msysgit Git Bash tool (which is Linux style commands), or cygwin. If using Windows command line, slashes in full path names will need to be reversed to backwards slash: "\\"
+* If using windows, the commands will need to be issued from the msysgit Git Bash tool, which is Linux style commands, or use cygwin. If using Windows command line, slashes in full path names will need to be reversed to backwards slash: "\\"
 
 
 ## Creating the proper folder structure.##
 
 1. Find the place where you want the amplafi files and tools to be placed.
 2. Create the directory "amplafi-code". This is where the clone of amplafi-tools repository will reside.
+3. On Windows you need to set up an ssh-agent on your machine so there is no user verification required during the cloning that follows: 
+    a) set up an ssh-agent using these [instructions](http://help.github.com/working-with-key-passphrases/)
+To setup a ssh-agent to run in the msysgit bash use these instructions.
+
+Now when you run the msysgit bash you should be prompted for your passphrase. If you are not prompted for your passphrase then restart windows and run the msysgit bash tool again. 
 
 ## Cloning the amplafi-tools repository using git.##
 
