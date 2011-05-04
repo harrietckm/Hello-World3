@@ -116,12 +116,12 @@ TODO: add more about what success looks like, maybe how can run the "testNG" run
 TODO: add something about what to do when you want to import from a fork and Eclipse doesn't do anything when you import!
 
 ## Configure Eclipse##
-The following files are located in the src/main/resources/eclipse/
+The following files are located in the ..\amplafi\amplafi_code\amplafi-tools\src\main\resources\eclipse
 directory.
 
 1. Import the eclipse-java-codetemplates.xml
    * Use the menu **Window>Preferences> --- Java>Code Style>Code Templates**
-   TODO: add images to illustrate this better
+   [EclCodeTemplates]
 2. Import the eclipse-java-formatting.xml
    * Use the menu **Window>Preferences> --- Java>Code Style>Formatter**
    TODO: add images to illustrate this better
@@ -147,8 +147,8 @@ directory.
    ![Restart Eclipse for the changes take effect.][restart]
    8. Now that you have findBugs installed here is some short tips on using it.
    TODO: add images to bring up the findbugs views, and an example on things it points out.
-2. [Testng](http://testng.org/doc/eclipse.html)
-   1. Install testng in much the same way as findbugs, only search for testng.
+2. [TestNG](http://testng.org/doc/eclipse.html)
+   1. Install testNG in much the same way as findbugs, only search for testNG.
    TODO: add image to hilight the testng software to install.
 
 <!-- These are the reference links to the images for this section. -->
