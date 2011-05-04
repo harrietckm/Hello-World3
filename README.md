@@ -28,13 +28,13 @@ Note: at the moment this document will have a unix slant.
 
 ## Before you start##
 * When going through the instructions, if you run into trouble first look at the known issues section at the bottom of this document to see if your trouble has a known fix.
-* If using windows, the commands will need to be issued from the msysgit bash tool, or cygwin.
-* For windows you may need to change the '/' characters to '\' when issuing commands to the terminal.
+* If using windows, the commands will need to be issued from the msysgit Git Bash tool, or cygwin.
+
 
 ## Creating the proper folder structure.##
 
 1. Find the place where you want the amplafi files and tools to be placed.
-2. Create the amplafi-code directory.
+2. Create the directory "amplafi-code".
 
 ## Cloning the amplafi-tools repository using git.##
 
@@ -49,11 +49,16 @@ Note: at the moment this document will have a unix slant.
 2. run this command.
 <pre> apache-ant-1.8.2/bin/ant opensource-one-time-setup </pre>
 
-3. The console window might prompt for things (but not in Windows) so pay attention and answer the questions/promts.
+3. The console window might prompt for things (but not in Windows) so pay attention and answer the questions/prompts.
+
 4. If the build fails then 
+
 4.a) read the error and see if is something easy like github not being setup properly, correct github setupcommand
+
 4.b) check the known issues below
+
 4.c) make sure you were in the correct directory before running the command
+
 5. Rerun if needed until success: 
 <pre> apache-ant-1.8.2/bin/ant opensource-one-time-setup </pre>
 
