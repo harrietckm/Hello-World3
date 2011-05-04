@@ -1,5 +1,7 @@
 # Amplafi Opensource Tools Project#
-Welcome to the Amplafi opensource tools project. The goal of this
+Welcome to Harriet's version 
+![Opening the Eclipse Marketplace][OpenMarketplace]
+of the Amplafi opensource tools project. The goal of this
 project is to get a user up and running with all of the needed tools and
 source to work on the opensource projects.
 
