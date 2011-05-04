@@ -8,7 +8,7 @@ Note: at the moment this document will have a unix slant.
 
 ## Prerequisites:##
 
-* **These prerequisites can be installed in any directory you want**
+  **These prerequisites can be installed in any directory you want**
 
 * **[A Github Account:](https://github.com/)**
    * Setup your machine to use github with their [instructions](http://help.github.com/set-up-git-redirect).
@@ -33,13 +33,13 @@ Note: at the moment this document will have a unix slant.
 
 ## Before you start##
 * When going through the instructions, if you run into trouble first look at the known issues section at the bottom of this document to see if your trouble has a known fix.
-* If using windows, the commands will need to be issued from the msysgit Git Bash tool, or cygwin.
+* If using windows, the commands will need to be issued from the msysgit Git Bash tool (which is Linux style commands), or cygwin. If using Windows command line, slashes in full path names will need to be reversed to backwards slash: "\\"
 
 
 ## Creating the proper folder structure.##
 
 1. Find the place where you want the amplafi files and tools to be placed.
-2. Create the directory "amplafi-code".
+2. Create the directory "amplafi-code". This is where the clone of amplafi-tools repository will reside.
 
 ## Cloning the amplafi-tools repository using git.##
 
@@ -50,7 +50,7 @@ Note: at the moment this document will have a unix slant.
 
 ## Starting the ant script.##
 
-1. change your working directory to the amplafi-tools directory.
+1. change your working directory to the amplafi-tools directory that was just created by cloning the amplafi-tools repository.
 2. run this command.
 <pre> apache-ant-1.8.2/bin/ant opensource-one-time-setup </pre>
 
