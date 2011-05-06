@@ -17,6 +17,7 @@ public class HelloJava {
 
         name = inp.nextLine();
         System.out.println("Thank you " + name );
+        //blah blah adding extra stuff
 
     }
 
