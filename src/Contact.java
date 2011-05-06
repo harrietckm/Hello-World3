@@ -18,111 +18,113 @@ public class Contact extends Applet {
 
 
 
-public void init(){
+    public void init(){
 
-    System.out.println("Contact - init");
+        System.out.println("Contact - init");
 
-    designScreen();
+        designScreen();
 
-    readParam();
+        readParam();
 
-return;}
-
-
-
-public void start(){
-
-    System.out.println("Contact - start");
-
-return;}
+        return;}
 
 
 
-public void stop(){
+    public void start(){
 
-    System.out.println("Contact - stop");
+        System.out.println("Contact - start");
 
-return;}
-
-
-
-public void destroy(){
-
-    System.out.println("Contact - destroy");
-
-return;}
+        return;}
 
 
 
-final void designScreen(){
+    public void stop(){
 
-    System.out.println("Contact - designScreen");
+        System.out.println("Contact - stop");
 
-    Button sendButton = new Button("Push This Button");
-
-    Label listLabel   = new Label("Welcome to Harriet's First Applet");
-
-    Panel listPanel   = new Panel();
-
-    listPanel.setLayout(new BorderLayout());
-
-    
-
-    listLabel.setAlignment(Label.CENTER);
-
-    listPanel.setBackground(Color.green);
-
-    itemList.setBackground(Color.blue);
-
-    setBackground(Color.white);
+        return;}
 
 
 
-    listPanel.add("North",listLabel);
+    public void destroy(){
 
-    listPanel.add("Center",itemList);
+        System.out.println("Contact - destroy");
 
-    listPanel.add("South",sendButton);
-
-    add(listPanel);
-
-return;}
+        return;}
 
 
 
-final void readParam() { 
+    final void designScreen(){
 
-    System.out.println("Contact - readParam");
+        System.out.println("Contact - designScreen");
 
-    String param_data=null; 
+        Button sendButton = new Button("Push This Button");
 
-    String email_name=null;
+        Label listLabel   = new Label("Welcome to Harriet's First Applet");
 
-    StringTokenizer st;
+        Panel listPanel   = new Panel();
 
-    int good_recs=-1;
+        listPanel.setLayout(new BorderLayout());
 
-  
 
-    for (int j=0;j<num_recs;j++) { 
 
-        param_data = getParameter("a" + j); 
+        listLabel.setAlignment(Label.CENTER);
 
-        if (param_data != null){
+        listPanel.setBackground(Color.green);
 
-            st = new StringTokenizer(param_data, "|"); 
+        itemList.setBackground(Color.blue);
 
-            if (st.hasMoreTokens()) { 
+        setBackground(Color.white);
 
-                email_name = st.nextToken();
 
-                if (st.hasMoreTokens()) {
 
-                    good_recs = ++good_recs;
+        listPanel.add("North",listLabel);
 
-                    itemList.addItem(email_name);
+        listPanel.add("Center",itemList);
 
-                    email_address[good_recs] = st.nextToken();
+        listPanel.add("South",sendButton);
+
+        add(listPanel);
+
+        return;}
+
+
+
+    final void readParam() { 
+
+        System.out.println("Contact - readParam");
+
+        String param_data=null; 
+
+        String email_name=null;
+
+        StringTokenizer st;
+
+        int good_recs=-1;
+
+
+
+        for (int j=0;j<num_recs;j++) { 
+
+            param_data = getParameter("a" + j); 
+
+            if (param_data != null){
+
+                st = new StringTokenizer(param_data, "|"); 
+
+                if (st.hasMoreTokens()) { 
+
+                    email_name = st.nextToken();
+
+                    if (st.hasMoreTokens()) {
+
+                        good_recs = ++good_recs;
+
+                        itemList.addItem(email_name);
+
+                        email_address[good_recs] = st.nextToken();
+
+                    }
 
                 }
 
@@ -130,61 +132,59 @@ final void readParam() {
 
         }
 
-    }
-
-return;}
+        return;}
 
 
 
-public boolean action(Event evt, Object obj){ 
+    public boolean action(Event evt, Object obj){ 
 
-    System.out.println("Contact - action");
-
-
-
-    if (evt.target instanceof Button){
-
-        int selected_index = itemList.getSelectedIndex(); 
+        System.out.println("Contact - action");
 
 
 
-        if (selected_index > -1)
+        if (evt.target instanceof Button){
 
-            invokeTransfer(selected_index);
+            int selected_index = itemList.getSelectedIndex(); 
 
-        else
 
-            showStatus("Please select a name first, then press the Send Mail button.");
+
+            if (selected_index > -1)
+
+                invokeTransfer(selected_index);
+
+            else
+
+                showStatus("Please select a name first, then press the Send Mail button.");
 
         }
 
-    
-
-return true;}
 
 
+        return true;}
 
 
 
-final void invokeTransfer(int selected_item){
 
-    System.out.println("Contact - invokeTransfer");
 
-    try {
+    final void invokeTransfer(int selected_item){
 
-        getAppletContext().showDocument(new URL("mailto:" + email_address[selected_item]));
+        System.out.println("Contact - invokeTransfer");
 
-        showStatus("Email successful for: " + email_address[selected_item]);
+        try {
 
-        }
+            getAppletContext().showDocument(new URL("mailto:" + email_address[selected_item]));
 
-    catch (Exception e){
-
-        showStatus("Failed to connect to Email program for: " + email_address[selected_item]);
+            showStatus("Email successful for: " + email_address[selected_item]);
 
         }
 
-return;}
+        catch (Exception e){
+
+            showStatus("Failed to connect to Email program for: " + email_address[selected_item]);
+
+        }
+
+        return;}
 
 }
 
